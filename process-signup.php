@@ -46,12 +46,8 @@ if ($stmt->execute()) {
 
     header("Location: signup-success.html");
     exit;
-    
-} else {
-    
-    if ($mysqli->errno === 1062) {
-        die("email already taken");
-    } else {
+}
+ else {
         die($mysqli->error . " " . $mysqli->errno);
     }
 }

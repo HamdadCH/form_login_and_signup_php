@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "login_db";
+$dbname = // name databasse;
 $username = "root";
 $password = "";
 

@@ -50,4 +50,4 @@ if ($stmt->execute()) {
  else {
         die($mysqli->error . " " . $mysqli->errno);
     }
-}
+?>
